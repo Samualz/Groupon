@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<project
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.tortuousroad</groupId>
+        <artifactId>groupon-site</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <groupId>com.tortuousroad</groupId>
+    <artifactId>groupon-site-controller</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>Controller.</description>
+
+    <properties>
+        <skip_maven_deploy>true</skip_maven_deploy>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.tortuousroad</groupId>
+            <artifactId>groupon-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.axet</groupId>
+            <artifactId>kaptcha</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alipay</groupId>
+            <artifactId>api</artifactId>
+            <version>20161116134500</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../Web/src/main/webapp/WEB-INF/lib/alipay-sdk-java20161116134500.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>

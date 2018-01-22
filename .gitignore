@@ -1,0 +1,28 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+.idea/
+Admin/Controller/groupon-admin-controller.iml
+Admin/Controller/target/
+Admin/Web/groupon-admin-web.iml
+Admin/Web/target/
+Admin/groupon-admin.iml
+Alipay/road-alipay.iml
+Alipay/target/
+Groupon.iml
+ImageServer/groupon-image-server.iml
+ImageServer/target/
+Service/groupon-service.iml
+Service/target/
+Site/Controller/groupon-site-controller.iml
+Site/Controller/target/
+Site/Web/groupon-site-web.iml
+Site/Web/target/
+Site/groupon-site.iml
